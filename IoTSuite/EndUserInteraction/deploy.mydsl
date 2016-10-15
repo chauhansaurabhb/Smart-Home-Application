@@ -1,0 +1,38 @@
+devices:												
+ 	SensorMgmtDevice1:                                                     
+  		location:                                       
+	 	 Room:1;                                     
+  		platform: NodeJS;                          
+  		resources: TemperatureSensor;   
+  		protocol:mqtt;                  
+ 	SensorMgmtDevice2:                                                   
+  		location:                                       
+	 	 Room:1;                                    
+  		platform: NodeJS;                       
+  		resources: SmokeDetector;  
+  		protocol:mqtt; 	
+ 	ResourceMgmtDevice1:                                                
+  		location:                                       
+	 	 Room:1;                                  
+  		platform: JavaSE;                           
+  		resources: ;                      
+  		protocol:mqtt; 
+ 	ResourceMgmtDevice2:                                                
+  		location:                                       
+	 	 Room:1;                                  
+  		platform: JavaSE;                           
+  		resources: ;                      
+  		protocol:mqtt;
+ 	ResourceMgmtDevice3:                                                
+  		location:                                       
+	 	 Room:1;                                  
+  		platform: JavaSE;                           
+  		resources: ;                      
+  		protocol:mqtt;	
+ 	EndUserDevice:                                                 
+  		location:                                       
+	 	 Room:1;                                   
+  		platform: Android;                          
+  		resources: EndUserApp;              
+  		protocol:mqtt;		                       
+	 		                           
